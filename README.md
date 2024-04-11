@@ -52,6 +52,4 @@ Future directions involve extending the analysis to incorporate more variables, 
 3. Micah Billington
 4. Rupesh Rangwani
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
