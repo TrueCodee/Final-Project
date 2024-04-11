@@ -2,23 +2,18 @@
 
 ## Overview
 
-This project represents a collaborative effort to analyze data from Stack Overflow, focusing on understanding trends, user behavior, and content quality within the platform. Our goal is to derive meaningful insights that can help improve user experience, engagement, and knowledge sharing on Stack Overflow. By examining various aspects such as question and answer quality, user activity levels, and topic popularity, we aim to provide a comprehensive overview of the platform's dynamics.
+This project investigates how programming language preferences vary across different age groups and experience levels among developers, based on the StackOverflow Developer Survey data. Our findings contribute to understanding the evolving software development landscape and the changing skill requirements for developers over time.
 
 ## Contents
 
-1. Introduction: Provides background information and outlines the objectives of our analysis, emphasizing the significance of understanding Stack Overflow's ecosystem.
-2. Data Importing & Cleaning: Details the process of obtaining the Stack Overflow dataset and the subsequent data cleaning and preparation steps to ensure the quality and reliability of our analysis.
-3. Exploratory Data Analysis (EDA): Shares insights gained from an initial exploration of the data, including user demographics, posting patterns, and topic distributions.
-4. User Engagement Analysis: Examines metrics related to user engagement, such as question and answer rates, comment activity, and reputation scores.
-5. Content Quality Evaluation: Utilizes various metrics to assess the quality of questions and answers posted on the platform, including response times, vote scores, and accepted answer rates.
-6. Trending Topics and Tags Analysis: Identifies and analyzes trending topics and tags over time to understand shifts in technology and user interests.
-7. Sentiment Analysis: Applies natural language processing techniques to evaluate the sentiment of comments and posts, aiming to gauge the community atmosphere.
-8. Network Analysis: Explores the social and professional networks within Stack Overflow, analyzing connections between users through shared posts, comments, and tags.
-9. Predictive Modeling: Develops models to predict question popularity, answer quality, and user engagement levels based on post content and user activity data.
-10. Interactive Visualizations: Includes interactive charts and graphs using libraries such as Plotly and Dash to visualize analysis results, making them accessible and 
-understandable.
+1. **Introduction**: Outlines the project's objectives, focusing on the analysis of programming language preferences among developers of different ages and experience levels.
+2. **Data Retrieval & Cleaning**: Details the process of obtaining the Stack Overflow dataset, including the importation of necessary libraries and initial data cleaning steps.
+3. **Data Processing & EDA (Exploratory Data Analysis)**: Describes the preprocessing steps and the exploratory analysis conducted to understand the distribution of programming language preferences among different demographic groups.
+4. **Model Application**: Discusses the application of logistic regression, random forest, and AdaBoost models to infer and predict programming language preferences based on demographic and professional data.
+5. **Synthesis of Inference and Prediction**: Provides insights from the model findings, highlighting how age, experience, and other factors influence programming language preferences.
+6. **Conclusion**: Summarizes the project's findings and their implications for educational strategies, community support initiatives, and future research directions.
 
-## Datasets 
+## Datasets
 
 The analysis is based on datasets provided by Stack Overflow, including user profiles, questions, answers, comments, and tag information. These datasets are publicly available through Stack Overflow's annual data release.
 
@@ -27,38 +22,35 @@ The analysis is based on datasets provided by Stack Overflow, including user pro
 1. Python
 2. Jupyter Notebook
 3. Pandas
-4. NLTK
-5. Matplotlib
-6. Seaborn
-7. VS Code
+4. Matplotlib
+5. Seaborn
+6. Scikit-Learn
+7. Statsmodels
+8. Imbalanced-Learn
 
 ## Results
 
-Our analysis uncovered several key insights into Stack Overflow's user engagement, content quality, and community dynamics. Detailed findings and visualizations can be found in the Jupyter Notebook included in this repository.
+Our analysis reveals significant insights into programming language preferences across different demographic segments. Detailed findings and visualizations are available in the Jupyter Notebook included in this repository.
 
 ## Future Work
 
-Future directions include extending the analysis to cover more years of data, incorporating more advanced machine learning models to predict user behavior, and expanding the scope to include other Stack Exchange network sites for a comparative analysis.
+Future directions involve extending the analysis to incorporate more variables, employing longitudinal data, and considering the impacts of emerging technologies on developer preferences.
 
 ## How to Run
 
 1. Clone the repository
-2. Install dependencies like pandas, nltk, scikit-learn
-3. Run jupyter notebook to start Jupyter
-4. Open the youtube_comments_analysis.ipynb notebook
-5. Run the cells in order to reproduce the analysis
-6. Alternatively, view youtube_comments_analysis.html to see a static HTML export of the executed notebook.
+2. Install dependencies listed above
+3. Run Jupyter Notebook to start Jupyter
+4. Open the `Final_Project_Analysis.ipynb` notebook
+5. Execute the cells in order to reproduce the analysis
+6. Alternatively, view `Final_Project_Analysis.html` for a static HTML export of the notebook.
 
-## Contributors 
+## Contributors
 
 1. Aryan Jain
 2. Devesh Talreja
 3. Micah Billington
 4. Rupesh Rangwani
-
-## Credits
-
-Thanks to DataSnaek for curating and releasing the YouTube comments dataset on Kaggle.
 
 ## License
 
